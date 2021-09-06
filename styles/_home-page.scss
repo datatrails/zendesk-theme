@@ -93,6 +93,5 @@
   overflow: hidden;
   right: 0;
   z-index: 1;
-  transform: scaleY(-1);
-  margin-top: 15px;
+  transform: scaleY(-1) scaleX(-1);
 }
