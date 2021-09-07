@@ -5,6 +5,7 @@
   background-size: auto;
   background-color: $banner-color;
   background-repeat: no-repeat;
+
   text-align: center;
   width: 100%;
 
@@ -29,7 +30,7 @@
     right: 0;
     z-index: 1;
     content: '';
-    opacity: 0.95;
+    opacity: 0.3;
   }
 
   &-large::before {
