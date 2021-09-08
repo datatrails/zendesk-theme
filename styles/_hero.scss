@@ -7,7 +7,6 @@
   background-repeat: no-repeat;
   text-align: center;
   width: 100%;
-  opacity: 0.3;
 
   &-large {
     margin-top: -$header-height;
@@ -19,7 +18,7 @@
 
   &-small {
     height: $header-height * 2;
-    background-position: center;
+    background-position: top;
   }
 
   &-large::before,
@@ -32,6 +31,7 @@
     z-index: 1;
     content: '';
     opacity: 0.3;
+    background-color: $banner-color;
   }
 
   &-large::before {
