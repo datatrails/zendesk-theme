@@ -2,6 +2,7 @@
 
 .section {
   margin-bottom: 80px;
+  position: relative;
 }
 
 // .section h2 {
@@ -94,8 +95,4 @@
   right: 0;
   z-index: 1;
   transform: scaleY(-1) scaleX(-1);
-}
-
-.static {
-  position: relative;
 }
