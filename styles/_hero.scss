@@ -13,7 +13,7 @@
   }
 
   &-large {
-    height: 65vh;
+    height: 75vh;
   }
 
   &-small {
@@ -35,7 +35,7 @@
   }
 
   &-large::before {
-    max-height: 85vh;
+    max-height: 75vh;
   }
 
   &-small::before {
