@@ -27,6 +27,18 @@
     <h1 class="home-categories-heading" id="browse-knowledge-base">Browse knowledge base</h1>
     <section class="categories blocks">
       <ul class="blocks-list">
+        {{#each categories}}
+        {{#if ../has_multiple_categories}}
+        <li class="blocks-item">
+          <a href='{{url}}' class="blocks-item-link">
+            {{#is name 'General'}}
+            <img alt="General" src="{{asset 'home-general.png'}}" />
+            {{/is}}
+            <h2 class="blocks-item-title">{{name}}</h2>
+            <p class="blocks-item-description">{{excerpt description}}</p>
+          </a>
+        </li>
+        {{else}}
         {{#each sections}}
         <li class="blocks-item">
           <a href='{{url}}' class="blocks-item-link">
@@ -36,6 +48,8 @@
             <p class="blocks-item-description">{{excerpt description}}</p>
           </a>
         </li>
+        {{/each}}
+        {{/if}}
         {{/each}}
       </ul>
       {{pagination}}
