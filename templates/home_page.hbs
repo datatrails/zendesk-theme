@@ -15,46 +15,16 @@
     </div>
     <p class="hero-inner-description"><strong><i class="fas fa-book"></i> Guides:</strong> getting started with <a
         href="https://docs.rkvst.com">RKVST</a>?</p>
-  </div><div class="jagged-lines">
+  </div>
+</section><div class="jagged-lines">
     <svg style="color: white;" viewBox="0 0 1000 100" preserveAspectRatio="none"><path d="M1000,50l-182.69,-45.286l-292.031,61.197l-190.875,-41.075l-143.748,28.794l-190.656,-23.63l0,70l1000,0l0,-50Z" style="opacity:0.4"></path><path d="M1000,57l-152.781,-22.589l-214.383,19.81l-159.318,-21.471l-177.44,25.875l-192.722,5.627l-103.356,-27.275l0,63.023l1000,0l0,-43Z"></path></svg>
   </div>
-</section>
 
 <div class="container">
   <section class="section knowledge-base">
     <h1 class="home-categories-heading" id="browse-knowledge-base">Browse knowledge base</h1>
     <section class="categories blocks">
       <ul class="blocks-list">
-        {{#each categories}}
-        {{#if ../has_multiple_categories}}
-        <li class="blocks-item">
-          <a href='{{url}}' class="blocks-item-link">
-            {{#is name 'Evoko Room Manager'}}
-            <img alt="Evoko Room Manager" src="{{asset 'home-room-manager.png'}}" />
-            {{/is}}
-            {{#is name 'Evoko Minto'}}
-            <img alt="Evoko Minto" src="{{asset 'home-minto.png'}}" />
-            {{/is}}
-            {{#is name 'Evoko Liso'}}
-            <img alt="Evoko Liso" src="{{asset 'home-liso.png'}}" />
-            {{/is}}
-            {{#is name 'Evoko Groupie'}}
-            <img alt="Evoko Groupie" src="{{asset 'home-groupie.png'}}" />
-            {{/is}}
-            {{#is name 'Evoko Pusco'}}
-            <img alt="Evoko Pusco" src="{{asset 'home-pusco.png'}}" />
-            {{/is}}
-            {{#is name 'Evoko Naso'}}
-            <img alt="Evoko Naso" src="{{asset 'home-naso.png'}}" />
-            {{/is}}
-            {{#is name 'General'}}
-            <img alt="General" src="{{asset 'home-general.png'}}" />
-            {{/is}}
-            <h2 class="blocks-item-title">{{name}}</h2>
-            <p class="blocks-item-description">{{excerpt description}}</p>
-          </a>
-        </li>
-        {{else}}
         {{#each sections}}
         <li class="blocks-item">
           <a href='{{url}}' class="blocks-item-link">
