@@ -13,7 +13,7 @@
   }
 
   &-large {
-    height: 75vh;
+    height: 85vh;
   }
 
   &-small {
@@ -35,7 +35,7 @@
   }
 
   &-large::before {
-    max-height: 75vh;
+    max-height: 85vh;
   }
 
   &-small::before {
@@ -105,14 +105,6 @@
   z-index: 1;
   transform: scaleY(-1) scaleX(-1);
   display: block;
-
-  &-large::before {
-    max-height: 10vh;
-  }
-
-  &-small::before {
-    max-height: 5vh;
-  }
 }
 
 .static {
