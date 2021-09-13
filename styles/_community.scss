@@ -1,7 +1,7 @@
 /***** Community *****/
 .community {
   &-hero {
-    background-image: url($community_background_image);
+    background-image: url($homepage_background_image);
     margin-bottom: 10px;
   }
 
@@ -19,12 +19,16 @@
   &-header {
     margin-bottom: 30px;
 
-    h4 { margin-bottom: 0; }
+    h4 {
+      margin-bottom: 0;
+    }
   }
 }
 
 .post-to-community {
-  @include tablet { margin: 0; }
+  @include tablet {
+    margin: 0;
+  }
   margin-top: 10px;
 }
 
@@ -44,7 +48,9 @@
 /* Community topic page */
 
 .topic-header {
-  @include tablet { padding-bottom: 10px; }
+  @include tablet {
+    padding-bottom: 10px;
+  }
   border-bottom: 1px solid $border-color;
   font-size: $font-size-small;
 
@@ -81,22 +87,27 @@
     width: 100%;
   }
 
-  [role="button"] {
-    @include tablet { width: auto;}
+  [role='button'] {
+    @include tablet {
+      width: auto;
+    }
 
     line-height: 30px;
     padding: 0 10px 0 15px;
     position: relative;
     width: 100%;
 
-    &:hover { background-color: $brand_color; }
+    &:hover {
+      background-color: $brand_color;
+    }
 
-    &:hover::after, &:focus::after {
+    &:hover::after,
+    &:focus::after {
       border-color: $brand_text_color;
       color: $brand_text_color;
     }
 
-    &[aria-selected="true"] {
+    &[aria-selected='true'] {
       background-color: $brand_color;
       color: $brand_text_color;
 
@@ -126,7 +137,7 @@
       position: absolute;
       right: 10px;
 
-      [dir="rtl"] & {
+      [dir='rtl'] & {
         border-left: 0;
         border-right: 1px solid $button-color;
         margin: 0 10px 0 0;
