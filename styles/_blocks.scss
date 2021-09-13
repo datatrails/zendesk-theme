@@ -61,6 +61,12 @@
   &-item-link {
     color: $brand_color;
 
+    img {
+      position: centre;
+      height: 80px;
+      width: 100px;
+    }
+
     &:hover,
     &:focus,
     &:active {
