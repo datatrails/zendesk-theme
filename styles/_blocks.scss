@@ -103,10 +103,31 @@
     }
   }
 
+  &-item-link-home {
+    color: $brand_color;
+
+    img {
+      position: centre;
+      width: 50%;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+    }
+  }
+
   &-item-title {
     margin-bottom: 0;
 
     color: $brand_text_color;
+  }
+
+  &-item-title-home {
+    margin-bottom: 0;
+
+    color: $text_color;
   }
 
   &-item-description {
@@ -116,6 +137,16 @@
   }
 
   &-item-description:not(:empty) {
+    margin-top: 10px;
+  }
+
+  &-item-description-home {
+    font-weight: $font-weight-light;
+    color: $brand_text_color;
+    margin: 0;
+  }
+
+  &-item-description-home:not(:empty) {
     margin-top: 10px;
   }
 }
