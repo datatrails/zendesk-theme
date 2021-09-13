@@ -3,6 +3,20 @@
   &-hero {
     background-image: url($homepage_background_image);
     margin-bottom: 10px;
+    height: $header-height * 2;
+    background-position: top;
+  }
+
+  &-hero::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: '';
+    opacity: 0.3;
+    background-color: $banner-color;
   }
 
   &-footer {
