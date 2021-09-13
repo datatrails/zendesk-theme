@@ -55,11 +55,11 @@ input[type='submit'] {
     width: auto;
   }
 
-  background-color: lighten($brand_color, 25%);
+  background-color: $brand-color;
   border: 1px solid;
   border-color: $brand_color;
   border-radius: $border-radius;
-  color: $text-color;
+  color: $brand-text-color;
   font-size: $font-size-navigation;
   font-weight: $font-weight-semibold;
   line-height: 2.72;
