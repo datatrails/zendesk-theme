@@ -15,8 +15,7 @@
   margin: 0;
   padding: 0 20px;
   text-align: center;
-  transition: background-color 0.12s ease-in-out, border-color 0.12s ease-in-out,
-    color 0.15s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   user-select: none;
   white-space: nowrap;
   width: 100%;
@@ -68,8 +67,7 @@ input[type='submit'] {
   min-width: 190px;
   padding: 0 1.9286em;
   width: 100%;
-  transition: background-color 0.12s ease-in-out, border-color 0.12s ease-in-out,
-    color 0.15s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 
   &:hover,
   &:active,
