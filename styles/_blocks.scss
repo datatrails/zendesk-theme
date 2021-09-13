@@ -45,7 +45,7 @@
       border-radius: $border-radius;
       box-sizing: border-box;
       background-color: transparent;
-      border-color: $brand-color;
+      border-color: 1px solid $brand-color;
       color: $text-color;
       display: flex;
       flex: 1 0 200px;
@@ -108,7 +108,7 @@
 
     img {
       position: centre;
-      width: 50%;
+      width: 150px;
     }
 
     &:hover,
