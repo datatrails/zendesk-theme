@@ -8,19 +8,19 @@
 
 <section class="section hero hero-large">
   <div class="hero-inner">
-    <h1 class="hero-inner-home-heading">Hi. How can we help?</h1>
+    <h1 class="hero-inner-home-heading">How can we help?</h1>
     <div class="hero-inner-search">
       {{search submit=false instant=settings.instant_search class="search search-full"
       placeholder="Search Knowledgebase..."}}
     </div>
-    <p class="hero-inner-description"><strong><i class="fas fa-book"></i> Guides:</strong> getting started with <a
+    <p class="hero-inner-description"><strong><i class="fas fa-book"></i> Guides:</strong> Getting started with <a
         href="https://docs.rkvst.com">RKVST</a>?</p>
   </div>
 </section>
 
 <div class="container">
   <section class="section knowledge-base">
-    <h1 class="home-categories-heading" id="browse-knowledge-base">Browse knowledge base</h1>
+    <h1 class="home-categories-heading" id="browse-knowledge-base">Browse Knowledgebase</h1>
     <section class="categories blocks">
       <ul class="blocks-list">
         {{#each categories}}
@@ -28,7 +28,7 @@
         <li class="blocks-item">
           <a href='{{url}}' class="blocks-item-link">
             {{#is name 'General'}}
-            <img alt="General" src="{{asset 'home-general.png'}}" />
+            <img alt="Reference Implementations" src="{{asset 'toolbox.png'}}" />
             {{/is}}
             <h2 class="blocks-item-title">{{name}}</h2>
             <p class="blocks-item-description">{{excerpt description}}</p>
