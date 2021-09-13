@@ -104,10 +104,20 @@
   right: 0;
   z-index: 1;
   transform: scaleY(-1) scaleX(-1);
-  max-height: 10vh;
+
+  &-large::before {
+    max-height: 10vh;
+  }
+
+  &-small::before {
+    max-height: 5vh;
+  }
 }
 
 .static {
   position: relative;
-  max-height: 85vh;
+
+  &-large::before {
+    max-height: 85vh;
+  }
 }
