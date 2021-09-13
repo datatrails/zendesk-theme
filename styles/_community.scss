@@ -5,6 +5,7 @@
     margin-bottom: 10px;
     height: $header-height * 2;
     background-position: top;
+    max-height: $header-height * 2;
   }
 
   &-hero::before {
