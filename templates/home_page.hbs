@@ -27,14 +27,14 @@
         {{#if ../has_multiple_categories}}
         <li class="blocks-item-home">
           <a href='{{url}}' class="blocks-item-link-home">
-            {{#is name 'Reference Implementations'}}
-            <img alt="Reference Implementations" src="{{asset 'toolbox.png'}}" />
+            {{#is name 'Articles & Reference'}}
+            <img style="position: left" alt="Articles & Reference" src="{{asset 'toolbox.png'}}" />
             {{/is}}
             {{#is name 'FAQs'}}
-            <img alt="FAQs" src="{{asset 'clipboard.png'}}" />
+            <img style="position: right" alt="FAQs" src="{{asset 'clipboard.png'}}" />
             {{/is}}
             {{#is name 'Announcements'}}
-            <img alt="Announcements" src="{{asset 'critical.png'}}" />
+            <img style="position: left" alt="Announcements" src="{{asset 'critical.png'}}" />
             {{/is}}
             <h2 class="blocks-item-title-home">{{name}}</h2>
             <p class="blocks-item-description-home">{{excerpt description}}</p>
