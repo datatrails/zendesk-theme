@@ -27,18 +27,19 @@
         {{#if ../has_multiple_categories}}
         <li class="blocks-item-home">
           <a href='{{url}}' class="blocks-item-link-home">
+            {{#is name 'Announcements'}}
+            <img style="float: right, padding-right: 10px" alt="Announcements" src="{{asset 'critical.png'}}" />
+            <h2 style="float: left" class="blocks-item-title-home">{{name}}</h2>
+            {{/is}}
             {{#is name 'Articles & Reference'}}
-            <img style="float: left" alt="Articles & Reference" src="{{asset 'toolbox.png'}}" />
-            <h2 style="float: right" class="blocks-item-title-home">{{name}}</h2>
+            <img style="float: right, padding-right: 10px" alt="Articles & Reference" src="{{asset 'toolbox.png'}}" />
+            <h2 style="float: left" class="blocks-item-title-home">{{name}}</h2>
             {{/is}}
             {{#is name 'FAQs'}}
-            <h2 style="float: left" class="blocks-item-title-home">{{name}}</h2>
-            <img style="float: right" alt="FAQs" src="{{asset 'clipboard.png'}}" />
+            <h2 style="float: right, padding-right: 10px" class="blocks-item-title-home">{{name}}</h2>
+            <img style="float: left" alt="FAQs" src="{{asset 'clipboard.png'}}" />
             {{/is}}
-            {{#is name 'Announcements'}}
-            <img style="float: left" alt="Announcements" src="{{asset 'critical.png'}}" />
-            <h2 style="float: right" class="blocks-item-title-home">{{name}}</h2>
-            {{/is}}
+
           </a>
         </li>
         {{else}}
