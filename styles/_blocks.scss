@@ -13,6 +13,14 @@
     padding: 0;
   }
 
+  &-list-home {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    padding: 0px 30px;
+  }
+
   &-item {
     border-radius: $border-radius;
     box-sizing: border-box;
