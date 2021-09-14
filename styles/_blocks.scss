@@ -128,8 +128,9 @@
 
     @media screen and (max-width: 900px) {
       img {
-        display: hidden;
+        display: none;
       }
+      float: unset;
     }
   }
 
