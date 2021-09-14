@@ -92,7 +92,8 @@
 
     img {
       position: centre;
-      width: 350%;
+      width: 350px;
+      display: inline-block;
     }
 
     &:hover,
@@ -107,6 +108,7 @@
 
     img {
       width: 350px;
+      display: inline-block;
     }
 
     &:hover,
