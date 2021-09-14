@@ -1,7 +1,7 @@
 /***** Blocks *****/
 /* Used in Homepage#categories and Community#topics */
 .blocks {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 100%;
   margin: 0 auto;
 
@@ -110,7 +110,6 @@
     img {
       max-width: 30%;
       display: inline-block;
-      position: relative;
     }
 
     &:hover,
@@ -129,7 +128,6 @@
     margin-bottom: 0;
     color: $text_color;
     display: inline;
-    position: relative;
     padding-right: 30px;
   }
 
