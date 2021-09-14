@@ -94,6 +94,7 @@
       position: centre;
       width: 350px;
       display: inline-block;
+      position: relative;
     }
 
     &:hover,
@@ -107,7 +108,7 @@
     color: $brand_color;
 
     img {
-      max-width: 40%;
+      max-width: 30%;
       display: inline-block;
     }
 
@@ -120,13 +121,14 @@
 
   &-item-title {
     margin-bottom: 0;
-
     color: $brand_text_color;
   }
 
   &-item-title-home {
     margin-bottom: 0;
     color: $text_color;
+    display: inline;
+    position: relative;
   }
 
   &-item-description {
