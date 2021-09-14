@@ -28,7 +28,7 @@
         <li class="blocks-item-home">
           <a href='{{url}}' class="blocks-item-link-home">
             {{#is name 'Articles & Reference'}}
-            <div style="float: left; padding-right: 30px" class="category-home">
+            <div class="category-home-left">
             <h2  class="blocks-item-title-home">{{name}}</h2>
             <p class="blocks-item-description-home">{{excerpt description}}</p>
             </div>
@@ -36,13 +36,13 @@
             {{/is}}
             {{#is name 'Announcements'}}
             <img alt="Announcements" src="{{asset 'critical.png'}}" />
-            <div style="float: right; padding-left: 30px" class="category-home">
+            <div class="category-home-right">
             <h2  class="blocks-item-title-home">{{name}}</h2>
             <p class="blocks-item-description-home">{{excerpt description}}</p>
             </div>
             {{/is}}
             {{#is name 'FAQs'}}
-            <div style="float: left; padding-right: 30px" class="category-home">
+            <div class="category-home-left">
             <h2  class="blocks-item-title-home">{{name}}</h2>
             <p class="blocks-item-description-home">{{excerpt description}}</p>
             </div>
