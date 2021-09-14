@@ -176,18 +176,20 @@
   &-right {
     float: right;
     padding-left: 30px;
+    padding-bottom: 30px;
   }
 
   &-left {
     float: left;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
 
   @media screen and (max-width: 1000px) {
     &-right,
     &-left {
       float: none;
-      padding: 30px;
+      padding: 0 30px;
     }
   }
 }
