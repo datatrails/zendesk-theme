@@ -128,7 +128,6 @@
   &-item-title-home {
     margin-bottom: 0;
     color: $text_color;
-    display: inline;
     vertical-align: top;
   }
 
@@ -152,4 +151,8 @@
   &-item-description-home:not(:empty) {
     margin-top: 10px;
   }
+}
+
+.category-home {
+  display: inline;
 }
