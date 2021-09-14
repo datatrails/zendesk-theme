@@ -18,6 +18,10 @@
     flex-wrap: wrap;
     text-align: center;
     list-style: none;
+
+    @media screen and (max-width: 1000px) {
+      justify-content: center;
+    }
   }
 
   &-item {
@@ -58,7 +62,7 @@
       justify-content: center;
       flex-direction: column;
       margin: 0 15px 30px;
-      padding-bottom: 5px 10px;
+      padding-bottom: 30px;
       max-width: 100%;
       text-align: center;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12),
@@ -126,7 +130,7 @@
       text-decoration: none;
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1000px) {
       img {
         display: none;
       }
@@ -171,15 +175,15 @@
 
   &-right {
     float: right;
-    padding-left: 30px;
+    padding: 30px;
   }
 
   &-left {
     float: left;
-    padding-right: 30px;
+    padding: 30px;
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
     &-right,
     &-left {
       float: none;
