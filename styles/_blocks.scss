@@ -129,6 +129,7 @@
     margin-bottom: 0;
     color: $text_color;
     display: inline;
+    vertical-align: top;
   }
 
   &-item-description {
@@ -145,6 +146,7 @@
     font-weight: $font-weight-light;
     color: $brand_text_color;
     margin: 0;
+    vertical-align: bottom;
   }
 
   &-item-description-home:not(:empty) {

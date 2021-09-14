@@ -28,7 +28,10 @@
         <li class="blocks-item-home">
           <a href='{{url}}' class="blocks-item-link-home">
             {{#is name 'Articles & Reference'}}
-            <h2 style="padding-right: 30px" class="blocks-item-title-home">{{name}}</h2>
+            <div style="padding-right: 30px" class="category-home">
+            <h2  class="blocks-item-title-home">{{name}}</h2>
+            <p class="blocks-item-description">{{excerpt description}}</p>
+            </div>
             <img alt="Articles & Reference" src="{{asset 'toolbox.png'}}" />
             {{/is}}
             {{#is name 'Announcements'}}
