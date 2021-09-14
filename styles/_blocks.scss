@@ -50,6 +50,7 @@
       color: $text-color;
       display: inline-block;
       flex-direction: column;
+      position: relative;
       margin: 0 15px 30px;
       padding: 20px 50px;
       max-width: 100%;
@@ -110,6 +111,7 @@
     img {
       max-width: 30%;
       display: inline-block;
+      position: absolute;
     }
 
     &:hover,
@@ -128,7 +130,7 @@
     margin-bottom: 0;
     color: $text_color;
     display: inline;
-    position: relative;
+    position: absolute;
     padding-right: 30px;
   }
 
