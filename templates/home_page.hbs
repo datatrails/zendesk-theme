@@ -28,19 +28,25 @@
         <li class="blocks-item-home">
           <a href='{{url}}' class="blocks-item-link-home">
             {{#is name 'Articles & Reference'}}
-            <div style="padding-right: 30px" class="category-home">
+            <div style="float:left; padding-right: 30px" class="category-home">
             <h2  class="blocks-item-title-home">{{name}}</h2>
             <p class="blocks-item-description-home">{{excerpt description}}</p>
             </div>
             <img alt="Articles & Reference" src="{{asset 'toolbox.png'}}" />
             {{/is}}
             {{#is name 'Announcements'}}
-            <img style="float: left; padding-right: 30px" alt="Announcements" src="{{asset 'critical.png'}}" />
-            <h2 style="float: right" class="blocks-item-title-home">{{name}}</h2>
+            <img alt="Announcements" src="{{asset 'critical.png'}}" />
+            <div style="float:right; padding-left: 30px" class="category-home">
+            <h2  class="blocks-item-title-home">{{name}}</h2>
+            <p class="blocks-item-description-home">{{excerpt description}}</p>
+            </div>
             {{/is}}
             {{#is name 'FAQs'}}
-            <h2 style="float: left; padding-right: 30px" class="blocks-item-title-home">{{name}}</h2>
-            <img style="float: right" alt="FAQs" src="{{asset 'clipboard.png'}}" />
+            <div style="float:left; padding-right: 30px" class="category-home">
+            <h2  class="blocks-item-title-home">{{name}}</h2>
+            <p class="blocks-item-description-home">{{excerpt description}}</p>
+            </div>
+            <img alt="FAQs" src="{{asset 'clipboard.png'}}" />
             {{/is}}
           </a>
         </li>
