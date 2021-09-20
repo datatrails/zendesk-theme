@@ -24,7 +24,6 @@
     <section class="categories blocks">
       <ul class="blocks-list-home">
         {{#each categories}}
-        {{#if ../has_multiple_categories}}
         <li class="blocks-item-home">
           <a href='{{url}}' class="blocks-item-link-home">
             {{#is name 'Articles & Reference'}}
@@ -50,18 +49,6 @@
             {{/is}}
           </a>
         </li>
-        {{else}}
-        {{#each sections}}
-        <li class="blocks-item-home">
-          <a href='{{url}}' class="blocks-item-link">
-            <h2 class="blocks-item-title">
-              {{name}}
-            </h2>
-            <p class="blocks-item-description">{{excerpt description}}</p>
-          </a>
-        </li>
-        {{/each}}
-        {{/if}}
         {{/each}}
       </ul>
       {{pagination}}
