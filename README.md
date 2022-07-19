@@ -2,6 +2,8 @@
 
 This repository contains the [RKVST support website frontend](https://support.rkvst.com/hc/en-us) running on the Zendesk Guide platform.
 
+This is a forked copy of [the Evoko Theme](https://github.com/evoko/zendesk-theme).
+
 The theme is based of the default [Zendesk Copenhagen theme](https://github.com/zendesk/copenhagen_theme) which is designed to be responsive and accessible. Check out the [Using themes and customizing your Help Center](https://support.zendesk.com/hc/en-us/sections/206670747) section and [developer documentation](https://developer.zendesk.com/apps/docs/help-center-templates/introduction) to learn more.
 
 ## Project structure
