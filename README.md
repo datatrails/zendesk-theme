@@ -1,6 +1,6 @@
-# Evoko theme for Zendesk Guide
+# RKVST theme for Zendesk Guide
 
-This repository contains the [Evoko support website frontend](https://support.evoko.se/hc/en-us) running on the Zendesk Guide platform.
+This repository contains the [RKVST support website frontend](https://support.rkvst.com/hc/en-us) running on the Zendesk Guide platform.
 
 The theme is based of the default [Zendesk Copenhagen theme](https://github.com/zendesk/copenhagen_theme) which is designed to be responsive and accessible. Check out the [Using themes and customizing your Help Center](https://support.zendesk.com/hc/en-us/sections/206670747) section and [developer documentation](https://developer.zendesk.com/apps/docs/help-center-templates/introduction) to learn more.
 
@@ -107,7 +107,7 @@ And this would look for a file inside the [`settings/`](settings/) folder named 
 
 ## Developing
 
-To start contributing, clone the repository (`git clone https://github.com/evoko/zendesk-theme.git`) and create a feature/bug branch (e.g. `git checkout -b feature/that-new-feature` or `bug/fix-for-that-bug`) to work on.
+To start contributing, clone the repository (`git clone https://github.com/jitsuin-inc/zendesk-theme.git`) and create a feature/bug branch (e.g. `git checkout -b feature/that-new-feature` or `bug/fix-for-that-bug`) to work on.
 
 ### Local previewing
 
@@ -118,7 +118,7 @@ To avoid having to enter your Zendesk credentials every time you start your deve
 ```json
 {
   "subdomain": "erm",
-  "username": "john.doe@evoko.se/token",
+  "username": "john.doe@rkvst.com/token",
   "password": "YOUR_API_TOKEN"
 }
 ```
@@ -147,7 +147,7 @@ For deploying changes to production we use the [Zendesk GitHub integration](http
 
 1. Increment the `version` in [`manifest.json`](manifest.json) (without this Zendesk won't recognize an update).
 2. Commit your changes and merge your branch to the master branch.
-3. In the [Zendesk Guide theming center](https://support.evoko.se/theming) press **Update from GitHub**.
+3. In the [Zendesk Guide theming center](https://support.rkvst.com/theming) press **Update from GitHub**.
 4. Changes should now be live! 🎉
 
 If you'd like to test your changes on a live website (instead of [Local previewing](#local-previewing)) before updating production then you could keep the changes on a separate branch than master and import the theme to the [Sandbox environment](https://erm.zendesk.com/agent/admin/sandbox).
